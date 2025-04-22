@@ -8,12 +8,12 @@ This repository explores the dynamic interactions between gut microbiota, chemic
 
 Analysis of the zebrafish gut microbiome revealed that parasite worm burden correlates significantly with microbial community composition. The Bray-Curtis dissimilarity matrix and PERMANOVA tests demonstrated that the taxonomic makeup of the microbiome aligns with infection levels, implicating specific microbes in modulating infection outcomes.
 
-![Relationship between parasite burden and gut microbiome composition](figures/figure1.jpg)
+![Relationship between parasite burden and gut microbiome composition](figures/fig1.jpg)
 *Figure 1: The taxonomic composition of the gut microbiome correlates with parasite burden.*
 
 Among the gut microbes, *Pelomonas* plays a central role, influencing levels of salicylaldehyde, a metabolite inversely correlated with worm burden. This association bridges microbial ecology with chemical interactions, providing mechanistic insight into the microbiome’s role in parasite regulation. Experimental testing validated salicylaldehyde’s anthelmintic activity, demonstrating its ability to reduce parasite egg viability and burden in vivo.
 
-![Experimental validation of salicylaldehyde](figures/figure4.jpg)
+![Experimental validation of salicylaldehyde](figures/fig4.jpg)
 *Figure 2: Salicylaldehyde shows potent anthelmintic effects in zebrafish models.*
 
 ---
