@@ -9,7 +9,7 @@ This repository explores the dynamic interactions between gut microbiota, chemic
 
 Analysis of the zebrafish gut microbiome revealed that parasite worm burden correlates significantly with microbial community composition. The Bray-Curtis dissimilarity matrix and PERMANOVA tests demonstrated that the taxonomic makeup of the microbiome aligns with infection levels, implicating specific microbes in modulating infection outcomes.
 
-![Relationship between parasite burden and gut microbiome composition](figures/figure1.jpg)
+![Relationship between parasite burden and gut microbiome composition](figures/fig1.jpg)
 *Figure 1: The taxonomic composition of the gut microbiome correlates with parasite burden.*
 
 Our analysis also uncovers a novel relationship between a class of metabolites, the N-acylethanolamines (NAEs), which include a set of endocannabinoids, that robustly distinguish parasite-infected subjects. Little prior work exists on this relationship, but it is known that helminth parasites possess molecular machinery to enzymatically break down NAEs and related endocannabinoids. This activity may enhance parasite infection success. 
