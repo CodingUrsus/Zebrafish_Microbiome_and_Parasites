@@ -2,20 +2,26 @@
 
 ## Overview
 
-This repository explores the dynamic interactions between gut microbiota, chemical metabolites, and intestinal helminth infection in zebrafish. Our study highlights how the taxonomic composition of the gut microbiome correlates with worm burden and identifies chemical mediators driving these relationships. The bacterium *Pelomonas* emerges as a key player, modulating levels of salicylaldehyde, a compound shown to possess potent anthelmintic properties. Experimental validation further underscores salicylaldehyde’s therapeutic potential.
+This repository includes code that explores the interactions between gut microbiota, chemical metabolites, and intestinal helminth infection in zebrafish. Our study highlights how the taxonomic composition of the gut microbiome correlates with worm burden and identifies metabolites that could drive these relationships. The bacterium *Pelomonas* emerges as a key player, possibly modulating the abundance of salicylaldehyde, a compound shown to possess potent anthelmintic properties. Experimental validation further underscores salicylaldehyde’s therapeutic potential.
 
 ## Key Insights
 
-Analysis of the zebrafish gut microbiome revealed that parasite worm burden correlates significantly with microbial community composition. The Bray-Curtis dissimilarity matrix and PERMANOVA tests demonstrated that the taxonomic makeup of the microbiome aligns with infection levels, implicating specific microbes in modulating infection outcomes.
+Analysis of the zebrafish gut microbiome revealed that parasite worm burden correlates significantly with microbial community composition. The taxonomic makeup of the microbiome aligns with parasite infection burden, potentially implicating specific microbes in modulating infection outcomes.
 
 ![Relationship between parasite burden and gut microbiome composition](figures/fig1.jpg)
 *Figure 1: The taxonomic composition of the gut microbiome correlates with parasite burden.*
 
-Among the gut microbes, *Pelomonas* plays a central role, influencing levels of salicylaldehyde, a metabolite inversely correlated with worm burden. This association bridges microbial ecology with chemical interactions, providing mechanistic insight into the microbiome’s role in parasite regulation. Experimental testing validated salicylaldehyde’s anthelmintic activity, demonstrating its ability to reduce parasite egg viability and burden in vivo.
+Among the gut microbes, *Pelomonas* is strongly inversely associated with parasite infection burden. Based on prior work, this microbe appears to influence the abundance of salicylaldehyde, a metabolite inversely correlated with worm burden. This association bridges microbial ecology with chemical interactions, providing potential therapeutic insight into the microbiome’s role in parasite regulation. Experimental testing validated salicylaldehyde’s anthelmintic activity, demonstrating its ability to reduce parasite egg viability and burden *in vivo*.
 
 ![Experimental validation of salicylaldehyde](figures/fig4.jpg)
-*Figure 2: Salicylaldehyde shows potent anthelmintic effects in zebrafish models.*
+*Figure 2: Salicylaldehyde displays potent anthelmintic effects in zebrafish models.*
 
+Our analysis also uncovers a novel relationship between a class of metabolites, the N-acylethanolamines (NAEs), which include a set of endocannabinoids, that robustly distinguish parasite-infected subjects. Little prior work exists on this relationship, but it is known that helminth parasites possess molecular machinery to enzymatically break down NAEs and related endocannabinoids. This activity may enhance parasite infection success. 
+
+Our results highlight the abundance of NAEs and precursor compounds as robustly linking to microbiome composition. This emphasizes a potential mechanistic route by which gut microbiota could engage in cross-talk with the host immune system and activate pathways which may alter helminth parasite infection etiology.
+
+![N-acylethanolamines link infection and microbiome](figures/fig2.jpg)
+*Figure 3: N-acylethanolamines robustly distinguish parasite-infected subjects and link to microbiome composition.*
 ---
 
 ## Code Descriptions
